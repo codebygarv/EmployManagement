@@ -11,7 +11,7 @@
         "@material-ui/lab": "^4.0.0-alpha.60",
         "@material-ui/styles": "^4.11.4",
         "@tabler/icons": "^1.39.1",
-        "apexcharts": "^3.26.0",
+        "apexcharts": "^4.0.0",
         "clsx": "^1.1.1",
         "date-fns": "^2.21.1",
         "formik": "^2.2.6",
