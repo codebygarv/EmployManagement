@@ -1,108 +1,185 @@
-# Berry Free React Material Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.io&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
+# CoreUI Free React Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%React%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
 
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/berry-free-react-admin-template/blob/main/LICENSE)
-[![npm](https://img.shields.io/npm/v/froala-design-blocks.svg?colorB=brightgreen)](https://www.npmjs.com/package/berry-material-react-free)
-[![GitHub package version](https://img.shields.io/github/package-json/v/froala/design-blocks.svg)](https://github.com/codedthemes/berry-free-react-admin-template/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)
+[![npm package][npm-coreui-badge]][npm-coreui]
+[![NPM downloads][npm-coreui-download]][npm-coreui]
+[![@coreui react](https://img.shields.io/badge/@coreui%20-react-lightgrey.svg?style=flat-square)](https://github.com/coreui/react)
+[![npm package][npm-coreui-react-badge]][npm-coreui-react]
+[![NPM downloads][npm-coreui-react-download]][npm-coreui-react]  
 
+[npm-coreui]: https://www.npmjs.com/package/@coreui/coreui
+[npm-coreui-badge]: https://img.shields.io/npm/v/@coreui/coreui.png?style=flat-square
+[npm-coreui-download]: https://img.shields.io/npm/dm/@coreui/coreui.svg?style=flat-square
+[npm-coreui-react]: https://www.npmjs.com/package/@coreui/react
+[npm-coreui-react-badge]: https://img.shields.io/npm/v/@coreui/react.png?style=flat-square
+[npm-coreui-react-download]: https://img.shields.io/npm/dm/@coreui/react.svg?style=flat-square
+[npm]: https://www.npmjs.com/package/@coreui/react
 
-Berry is a creative free react admin template build using the Material-UI. It is meant to be the best User Experience with highly customizable feature-riched pages. It is a complete game-changer React Dashboard Template with easy and intuitive responsive design as on retina screens or laptops.
+[![Bootstrap Admin Template](https://assets.coreui.io/products/coreui-free-bootstrap-admin-template-light-dark.webp)](https://coreui.io/product/free-react-admin-template/)
 
-<a href="https://www.producthunt.com/posts/berry-free-react-admin-template?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-berry-free-react-admin-template" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=295529&theme=dark" alt="Berry - Free React Admin Template - Help you to create React web applications faster & beautiful | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of redundant components, so the app is light enough to offer ultimate user experience. This means mobile devices also, where the navigation is just as easy and intuitive as on a desktop or laptop. The CoreUI Layout API lets you customize your project for almost any device – be it Mobile, Web or WebApp – CoreUI covers them all!
 
-[Pro version](https://berrydashboard.io) of Berry react template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT, Auth0, Firebase), Advance Components, Form Plugins, Layouts, Widgets, and many more.
+## Table of Contents
 
-![Berry React Material Admin Template](https://blog.berrydashboard.io/content/images/size/w1000/2021/04/Og-Blog-social.png)
+* [Versions](#versions)
+* [CoreUI PRO](#coreui-pro)
+* [CoreUI PRO React Admin Templates](#coreui-pro-react-admin-templates)
+* [Quick Start](#quick-start)
+* [Installation](#installation)
+* [Basic usage](#basic-usage)
+* [What's included](#whats-included)
+* [Documentation](#documentation)
+* [Versioning](#versioning)
+* [Creators](#creators)
+* [Community](#community)
+* [Support CoreUI Development](#support-coreui-development)
+* [Copyright and License](#copyright-and-license)
 
-## Why Berry?
+## Versions
 
-Berry brings everything you need for dashboard development. We have added the following high-end features in the initial release.
+* [CoreUI Free Bootstrap Admin Template](https://github.com/coreui/coreui-free-bootstrap-admin-template)
+* [CoreUI Free Angular Admin Template](https://github.com/coreui/coreui-free-angular-admin-template)
+* [CoreUI Free React.js Admin Template (Vite)](https://github.com/coreui/coreui-free-react-admin-template)
+* [CoreUI Free React.js Admin Template (Create React App)](https://github.com/coreui/coreui-free-react-admin-template-cra)
+* [CoreUI Free Vue.js Admin Template](https://github.com/coreui/coreui-free-vue-admin-template)
 
- * Modern aesthetics UI design
- * Material-UI components
- * Fully Responsive, all modern browser supported
- * Easy to use code structure
- * Flexible & High-Performance code
- * Easy Documentation Guide
+## CoreUI PRO
 
-## Free version preview & download
+* 💪  [CoreUI PRO Angular Admin Template](https://coreui.io/product/angular-dashboard-template/)
+* 💪  [CoreUI PRO Bootstrap Admin Template](https://coreui.io/product/bootstrap-dashboard-template/)
+* 💪  [CoreUI PRO Next.js Admin Template](https://coreui.io/product/next-js-dashboard-template/)
+* 💪  [CoreUI PRO React Admin Template](https://coreui.io/product/react-dashboard-template/)
+* 💪  [CoreUI PRO Vue Admin Template](https://coreui.io/product/vue-dashboard-template/)
 
-We are expected to release the Free Berry React Admin Template in 07/05/2021
+## CoreUI PRO React Admin Templates
 
-#### Preview
+| Default Theme | Light Theme |
+| --- | --- |
+| [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_default_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=default) | [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_light_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=light)|
 
- - [Demo](https://berrydashboard.io/free)
+| Modern Theme | Bright Theme |
+| --- | --- |
+| [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_default_v3_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=modern) | [![CoreUI PRO React Admin Template](https://coreui.io/images/templates/coreui_pro_light_v3_light_dark.webp)](https://coreui.io/product/react-dashboard-template/?theme=bright)|
 
-#### Download
+## Quick Start
 
- - [Download from Github](https://github.com/codedthemes/berry-free-react-admin-template)
- 
-## Pro version preview & Purchase
+- [Download the latest release](https://github.com/coreui/coreui-free-react-admin-template/archive/refs/heads/main.zip)
+- Clone the repo: `git clone https://github.com/coreui/coreui-free-react-admin-template.git`
 
-Berry is available to purchase.
-#### Preview
+### Installation
 
- - [Demo](https://berrydashboard.io)
-
-#### Purchase
-
- - [Purchase from Material UI Store](https://material-ui.com/store/items/berry-react-material-admin/)
-
-## Table of contents
-
- * [Getting Started](#getting-started)
- * [Documentation](#documentation)
- * [Technology Stack](#technology-stack)
- * [Author](#author)
- * [Issues?](#issues)
- * [License](#license)
- * [More Products](#more-free-react-material-admin-templates)
- * [Follow us](#follow-us)
- 
-## Getting Started
-
-Clone from Github 
+``` bash
+$ npm install
 ```
-git clone https://github.com/codedthemes/berry-free-react-admin-template.git
+
+or
+
+``` bash
+$ yarn install
+```
+
+### Basic usage
+
+``` bash
+# dev server with hot reload at http://localhost:3000
+$ npm start 
+```
+
+or 
+
+``` bash
+# dev server with hot reload at http://localhost:3000
+$ yarn start
+```
+
+Navigate to [http://localhost:3000](http://localhost:3000). The app will automatically reload if you change any of the source files.
+
+#### Build
+
+Run `build` to build the project. The build artifacts will be stored in the `build/` directory.
+
+```bash
+# build for production with minification
+$ npm run build
+```
+
+or
+
+```bash
+# build for production with minification
+$ yarn build
+```
+
+## What's included
+
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+
+```
+coreui-free-react-admin-template
+├── public/          # static files
+│   ├── favicon.ico
+│   └── manifest.json
+│
+├── src/             # project root
+│   ├── assets/      # images, icons, etc.
+│   ├── components/  # common components - header, footer, sidebar, etc.
+│   ├── layouts/     # layout containers
+│   ├── scss/        # scss styles
+│   ├── views/       # application views
+│   ├── _nav.js      # sidebar navigation config
+│   ├── App.js
+│   ├── index.js
+│   ├── routes.js    # routes config
+│   └── store.js     # template state example 
+│
+├── index.html       # html template
+├── ...
+├── package.json
+├── ...
+└── vite.config.mjs  # vite config
 ```
 
 ## Documentation
 
-Berry documentation helps you out in all aspects from Installation to deployment - Soon it will be available.
+The documentation for the CoreUI Admin Template is hosted at our website [CoreUI for React](https://coreui.io/react/docs/templates/installation/)
 
-## Technology Stack
+## Versioning
 
- - [Material UI V5](https://material-ui.com/)
- - Built with React Hooks API
- - Redux & React Context API for State Management
- - React Router for Navigation Routing
- - Support of react-script
- - Code Splitting
- - CSS-in-JS where CSS is composed using JavaScript instead of defined in external files
+For transparency into our release cycle and in striving to maintain backward compatibility, CoreUI Free Admin Template is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
-## Author
+See [the Releases section of our project](https://github.com/coreui/coreui-free-react-admin-template/releases) for changelogs for each release version.
 
-Berry is managed by Team [CodedThemes](https://codedthemes.com).
+## Creators
 
-## Issues
+**Łukasz Holeczek**
 
-Please generate a Github issue if you found a bug in any version. We are trying to be responsive to resolve the issue.
+* <https://twitter.com/lukaszholeczek>
+* <https://github.com/mrholek>
 
-## License
+**Andrzej Kopański**
 
- - Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
+* <https://github.com/xidedix>
 
-## More Free React Material Admin Templates
+**CoreUI Team**
 
- - [Free Materially](https://codedthemes.com/item/materially-free-reactjs-admin-template/)
+* <https://twitter.com/core_ui>
+* <https://github.com/coreui>
+* <https://github.com/orgs/coreui/people>
 
-## More Premium React Material Admin Templates
+## Community
 
- - [Materially](https://codedthemes.com/item/materially-reactjs-admin-dashboard/)
- 
-## Follow us
- - Website [https://berrydashboard.io](https://berrydashboard.io)
- - Blog [https://blog.berrydashboard.io](https://blog.berrydashboard.io)
- - CodedThemes [https://codedthemes.com](https://codedthemes.com)
- - Dribbble [https://dribbble.com/codedthemes](https://dribbble.com/codedthemes)
- - Facebook [https://www.facebook.com/codedthemes](https://www.facebook.com/codedthemes)
- - Twitter [https://twitter.com/codedthemes](https://twitter.com/codedthemes)
+Get updates on CoreUI's development and chat with the project maintainers and community members.
+
+- Follow [@core_ui on Twitter](https://twitter.com/core_ui).
+- Read and subscribe to [CoreUI Blog](https://coreui.ui/blog/).
+
+## Support CoreUI Development
+
+CoreUI is an MIT-licensed open source project and is completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. You can support development by buying the [CoreUI PRO](https://coreui.io/pricing/?framework=react&src=github-coreui-free-react-admin-template) or by becoming a sponsor via [Open Collective](https://opencollective.com/coreui/).
+
+## Copyright and License
+
+copyright 2024 creativeLabs Łukasz Holeczek.   
+
+Code released under [the MIT license](https://github.com/coreui/coreui-free-react-admin-template/blob/main/LICENSE).
