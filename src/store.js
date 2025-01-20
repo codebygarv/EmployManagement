@@ -1,18 +1,21 @@
-import { legacy_createStore as createStore } from 'redux'
+import { configureStore } from "@reduxjs/toolkit";
+import { persistStore, persistReducer } from "redux-persist";
+import autoMergeLevel2 from "redux-persist/lib/stateReconciler/autoMergeLevel2";
+import storage from "redux-persist/lib/storage";
+import { rootReducer } from "./adapters/reducer";
 
-const initialState = {
-  sidebarShow: true,
-  theme: 'light',
+
+const persistConfig = {
+  key: 'root',
+  storage,
+  stateReconciler: autoMergeLevel2,
 }
 
-const changeState = (state = initialState, { type, ...rest }) => {
-  switch (type) {
-    case 'set':
-      return { ...state, ...rest }
-    default:
-      return state
-  }
-}
+const persistedReducer = persistReducer(persistConfig, rootReducer);
 
-const store = createStore(changeState)
-export default store
+export const store = configureStore({
+  reducer: persistedReducer,
+  // middleware: [reduxPromise, thunk]
+});
+
+export const persistor = persistStore(store);
