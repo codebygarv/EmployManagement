@@ -62,7 +62,7 @@ const Login = () => {
 
   useEffect(() => {
     // dispatch({ type: authConstant.SIGNIN_SUCCESS, payload: {} })
-    document.title = 'Grocery 24*7 | Login';
+    document.title = 'EMS | Login';
     if (colorMode !== 'light') {
       setColorMode('light')
     }
@@ -71,8 +71,6 @@ const Login = () => {
       navigate("/dashboard");
     }
   }, [authState.auth, colorMode, setColorMode]);
-
-  console.log("Login authState - ", authState);
 
   return (
     <div className="bg-body-tertiary min-vh-100  d-flex flex-row align-items-center">

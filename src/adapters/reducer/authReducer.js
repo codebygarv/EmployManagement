@@ -11,7 +11,7 @@ const initialState = {
 export const authReducer = (state = initialState, action) => {
     switch (action.type) {
         case authConstant.SIGNIN_REQUEST:
-            return { ...state, loading: true };
+            return { ...state, loading: true, error: null };
             break;
 
         case authConstant.SIGNIN_SUCCESS:
@@ -20,6 +20,7 @@ export const authReducer = (state = initialState, action) => {
                 userDetails: action.payload,
                 submitted: false,
                 loading: false,
+                error: null
             };
             break;
 
