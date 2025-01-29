@@ -3,7 +3,7 @@ import React from 'react'
 
 const Pagination = (props) => {
     return (
-        <div>
+        <div style={{marginTop:"10px"}}> 
             <CPagination aria-label="Page navigation example" className='justify-content-end me-3'>
                 <CPaginationItem
                     disabled={props.currentPage === 1}

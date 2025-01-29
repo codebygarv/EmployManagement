@@ -68,7 +68,7 @@ const DepartmentAdd = () => {
             onSubmit={onSubmit}
         >
             {({ handleSubmit, handleChange, values, touched, errors }) => (
-                <CContainer>
+                <CContainer >
                     <CRow className='justify-content-center'>
                         <CCol md={9}>
                             <CCard>
@@ -77,7 +77,6 @@ const DepartmentAdd = () => {
                                 </CCardHeader>
                                 <CCardBody>
                                     <form className="row g-3" onSubmit={handleSubmit}>
-                                        {/* Department Name */}
                                         <div className="col-12">
                                             <label htmlFor="department-name" className="form-label">Department Name</label>
                                             <CFormInput
@@ -92,7 +91,6 @@ const DepartmentAdd = () => {
                                             />
                                         </div>
 
-                                        {/* Department Description */}
                                         <div className="col-12">
                                             <label htmlFor="department-description" className="form-label">Department Description</label>
                                             <CFormInput
@@ -107,7 +105,6 @@ const DepartmentAdd = () => {
                                             />
                                         </div>
 
-                                        {/* Status Dropdown */}
                                         <div className="col-12">
                                             <label htmlFor="inputState" className="form-label">Status</label>
                                             <select

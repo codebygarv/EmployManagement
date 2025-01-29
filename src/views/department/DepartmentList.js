@@ -88,10 +88,10 @@ const DepartmentList = () => {
     };
 
     return (
-        <CCard>
+        <CCard style={{ marginBottom: '20px' }}>
             <CCardHeader className="text-center fw-bold">All Departments</CCardHeader>
             <CCardBody>
-                <CRow className="mb-4" style={{marginBottom:'10px'}}>
+                <CRow className="mb-4" style={{ marginBottom: '10px' }}>
                     <CCol xs={12} md={6} className="mb-2 mb-md-0">
                         <CFormInput
                             type="search"
@@ -114,7 +114,6 @@ const DepartmentList = () => {
                         </CTableRow>
                     ) : filteredDepartments.length > 0 ? (
                         filteredDepartments.map((item, index) => (
-
                             <CCol key={index} >
                                 <CCard>
                                     <CCardBody style={{ display: 'flex' }}>
@@ -124,12 +123,12 @@ const DepartmentList = () => {
                                         <CContainer>
                                             <CCardTitle>{item.name}</CCardTitle>
                                             <CCardText>{item.description}</CCardText>
-                                            <CCardText>{item.__v}</CCardText>
+                                            <CCardText>{item.status ? '🟢 Active' : '🔴 InActive'}</CCardText>
                                             <Link to={`/department/edit/${item._id}`}><CButton color="info" style={{ marginRight: '10px', borderRadius: '20px', color: 'white' }}>edit</CButton></Link>
                                             <CButton color="danger"
                                                 style={{ borderRadius: '20px', color: 'white' }}
                                                 onClick={() => {
-                                                    setSelectedId(item.id);
+                                                    setSelectedId(item._id);
                                                     setVisible(true);
                                                 }}>Delete</CButton>
                                         </CContainer>

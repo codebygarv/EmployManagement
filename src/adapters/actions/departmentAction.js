@@ -30,7 +30,7 @@ export const departmentAdd = (data, token) => {
         try {
             dispatch({ type: departmentConstant.DEPARTMENT_ADD_REQUEST, payload: null });
             const response = await departmentService.departmentAddService("/department/create", data, token);
-            
+
             if (response.status === 200) {
                 dispatch({ type: departmentConstant.DEPARTMENT_ADD_SUCCESS, payload: response.data });
                 toast.success('Department Added Successfully!');

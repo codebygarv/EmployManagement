@@ -1,0 +1,25 @@
+.employee-card:hover {
+    scale: 1.03;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.employee-card-image {
+    height: 100px;
+    width: 100px;
+    border: .7px solid rgb(187, 187, 187);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.employee-card-body-text {
+    text-align: center;
+
+}
+
+.employee-card-body-footer {
+    text-align: center;
+}
